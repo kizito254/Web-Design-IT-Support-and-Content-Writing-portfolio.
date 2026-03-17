@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio showcasing web design, IT support, and SEO content writing services."
+    />
+    <title>Alex Carter | Web Design, IT Support & Content Writing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header and navigation -->
+    <header class="site-header">
+      <div class="container header-wrap">
+        <a href="#home" class="logo">Alex Carter</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <nav class="site-nav" id="siteNav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home section -->
+      <section id="home" class="hero section">
+        <div class="container">
+          <h1>Web Design, IT Support, and Content Writing That Delivers Results</h1>
+          <p>
+            I help businesses build professional websites, maintain reliable systems,
+            and publish content that improves search visibility.
+          </p>
+          <a href="#contact" class="btn-primary">Work With Me</a>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a multidisciplinary freelancer with experience in responsive web
+            design, frontline IT support, and SEO-focused content writing. My goal is
+            to provide clear, practical solutions that help organizations run smoothly
+            and grow online.
+          </p>
+        </div>
+      </section>
+
+      <!-- Services section -->
+      <section id="services" class="section section-alt">
+        <div class="container">
+          <h2>Services</h2>
+          <div class="grid cards">
+            <article class="card">
+              <h3>Web Design</h3>
+              <p>
+                Responsive websites with clean layouts, user-friendly navigation,
+                and modern styling tailored to your brand.
+              </p>
+            </article>
+            <article class="card">
+              <h3>IT Support</h3>
+              <p>
+                Troubleshooting, systems documentation, and practical workflows to
+                reduce downtime and improve team productivity.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Content Writing</h3>
+              <p>
+                SEO blog posts, service pages, and technical articles designed to
+                inform your audience and attract qualified traffic.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio section -->
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h2>Portfolio Projects</h2>
+          <div class="grid cards">
+            <article class="card">
+              <h3>Small Business Website Redesign</h3>
+              <p>
+                Improved mobile usability and page speed, resulting in a lower
+                bounce rate and better lead generation.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Internal IT Help Desk Guide</h3>
+              <p>
+                Created structured documentation for recurring issues, helping staff
+                resolve common incidents faster.
+              </p>
+            </article>
+            <article class="card">
+              <h3>SEO Blog Content Series</h3>
+              <p>
+                Wrote a 10-article series targeting high-intent keywords for a SaaS
+                client, increasing organic traffic.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Send a message to discuss your project needs.</p>
+          <form id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn-primary">Send Message</button>
+            <p id="formFeedback" class="form-feedback" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 Alex Carter. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
